@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu&family=Source+Serif+Pro:ital,wght@0,300;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: 'Anek Telugu', Source Serif Pro, serif, sans-serif;
+    font-weight: 300;
+    color: #1f1e1e;
+}
+
+/* Headings and website logo */
+
+h1, h2 {
+    font-family: 'Anek Telugu', Source Serif Pro, serif, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4.2px;
+    color: #252525;
+}
+
+#logo {
+    font-size: 240%;
+    float: left;
+    margin-left: 10px;
+}
+
+/* navigation links menu1 */
+
+#menu1 {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu1, #logo {
+    line-height: 75px;
+}
+
+#menu1 li {
+    float: left;
+    list-style-type: none;
+    margin-left: 30px;
+}
+
+#menu1 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu1 a:hover {
+    border-bottom: 1px solid #252525;
+}
+
+.active {
+    border-bottom: 1px solid #252525;
+}
+
+/* navigation links menu2 */
+
+#menu2 {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu2, #logo {
+    line-height: 75px;
+}
+
+#menu2 li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu2 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu2 a:hover {
+    border-bottom: 1px solid #252525;
+}
+
+.active {
+    border-bottom: 1px solid #252525;
+}
+
