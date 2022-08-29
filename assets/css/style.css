@@ -22,7 +22,7 @@ h1, h2 {
 }
 
 #logo {
-    font-size: 240%;
+    font-size: 260%;
     float: left;
     margin-left: 15px;
 }
@@ -109,17 +109,18 @@ h1, h2 {
     width: 100%;
     background: url('../images/workout.PNG') no-repeat center center;
     background-size: cover;
-    background-color: #252525;
+    background-color: #000000;
+    filter: brightness(50%);
 }
 
-/* Ethos text 1,2,3 and read more button */
+/* Ethos text 1,2,3 and learn more button */
 
 #ethos-text, #ethos-text h2 {
     color: #fff;
 }
 
 #ethos-text > h2 {
-    font-size: 180%;
+    font-size: 190%;
 }
 
 #ethos-text {
@@ -129,12 +130,12 @@ h1, h2 {
     letter-spacing: 1px;
 
     width: 630px;
-    height: 200px;
+    height: 215px;
 
     padding-top: 40px;
     padding-right: 500px;
 
-    bottom: 300px;
+    bottom: 230px;
     right: 150px;
 
     position: absolute;
@@ -148,14 +149,14 @@ h1, h2 {
     text-transform: uppercase;
     letter-spacing: 2px;
 
-    width: 830px;
-    height: 200px;
+    width: 930px;
+    height: 215px;
 
     padding-top: 40px;
     padding-right: 500px;
 
-    bottom: 160px;
-    right: 90px;
+    bottom: 85px;
+    right: 0px;
 
     position: absolute;
     text-align: center;
