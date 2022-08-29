@@ -143,17 +143,22 @@ h1, h2 {
     transform: translate(-50%, -50%);
     color: #fff;
     text-transform: uppercase;
+    background: #fff;
+    padding: 10px 25px 6px 25px;
+    border-radius: 5px;
 }
 
 .hero-learn-more a {
     text-decoration: none;
-    color: #fff;
+    color: #252525;
+    font-size: 1.2em;
+    font-weight: bolder;
+    letter-spacing: 2px;
 }
 
 .hero-learn-more a:hover {
     text-decoration: none;
-    color: #fff;
-    border-bottom: 3px solid #fff;
+    color: #blue;
 }
 
 /* Featured articles */
@@ -218,4 +223,14 @@ footer {
     width: 100%;
     padding-bottom: 15px;
     border-radius: 5px;
+}
+
+@media screen and (max-width: 769px) {
+    .container .image-box {
+        flex-direction: column;
+    }
+
+    .container .image-box .columns {
+        width: 100%;
+    }
 }
