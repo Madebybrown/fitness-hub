@@ -92,7 +92,7 @@ h1, h2 {
 /* Home background image */
 
 #hero-outer {
-    height: 750px;
+    height: 600px;
     width: 100%;
     overflow: hidden;
 
@@ -105,8 +105,58 @@ h1, h2 {
 }
 
 #hero-image {
-    height: 750px;
+    height: 600px;
     width: 100%;
-    background: url('../images/barbell.jpg') no-repeat center center;
+    background: url('../images/workout.PNG') no-repeat center center;
     background-size: cover;
     background-color: #252525;
+}
+
+/* Ethos text 1,2,3 and read more button */
+
+#ethos-text, #ethos-text h2 {
+    color: #fff;
+}
+
+#ethos-text > h2 {
+    font-size: 180%;
+}
+
+#ethos-text {
+    font-size: 130%;
+    font-family: 'Anek Telugu', Source Serif Pro, serif, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    width: 630px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-right: 500px;
+
+    bottom: 300px;
+    right: 150px;
+
+    position: absolute;
+    text-align: center;
+}
+
+#ethos-text2 {
+    color: #fff;
+    font-size: 80%;
+    font-family: 'Anek Telugu', Source Serif Pro, serif, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    width: 830px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-right: 500px;
+
+    bottom: 160px;
+    right: 90px;
+
+    position: absolute;
+    text-align: center;
+}
