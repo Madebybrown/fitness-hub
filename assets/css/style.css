@@ -148,9 +148,13 @@ h1, h2 {
     border-radius: 5px;
 }
 
+.hero-learn-more:hover {
+    background: #1f1e1e;
+}
+
 .hero-learn-more a {
     text-decoration: none;
-    color: #252525;
+    color: #1f1e1e;
     font-size: 1.2em;
     font-weight: bolder;
     letter-spacing: 2px;
@@ -158,7 +162,7 @@ h1, h2 {
 
 .hero-learn-more a:hover {
     text-decoration: none;
-    color: #blue;
+    color: #fff;
 }
 
 /* Featured articles */
