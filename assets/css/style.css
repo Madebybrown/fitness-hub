@@ -161,3 +161,31 @@ h1, h2 {
     position: absolute;
     text-align: center;
 }
+
+.border-line {
+    border-width: 3px;
+    border-style: solid;
+    border-color: #fff;
+    
+}
+
+#learn-more a {
+    color: #fff;
+    font-size: 130%;
+    font-family: 'Anek Telugu', Source Serif Pro, serif, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+
+    width: 930px;
+    height: 215px;
+
+    padding-top: 40px;
+    padding-right: 500px;
+
+    bottom: 25px;
+    right: 0px;
+
+    position: absolute;
+    text-align: center;
+}
