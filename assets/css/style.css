@@ -51,11 +51,11 @@ h1, h2 {
 }
 
 #menu1 a:hover {
-    border-bottom: 1px solid #252525;
+    border-bottom: 3px solid #252525;
 }
 
 .active {
-    border-bottom: 1px solid #252525;
+    border-bottom: 3px solid #252525;
 }
 
 /* navigation links menu2 */
@@ -82,11 +82,11 @@ h1, h2 {
 }
 
 #menu2 a:hover {
-    border-bottom: 1px solid #252525;
+    border-bottom: 3px solid #252525;
 }
 
 .active {
-    border-bottom: 1px solid #252525;
+    border-bottom: 3px solid #252525;
 }
 
 /* Hero background image + ethos */
@@ -142,5 +142,31 @@ h1, h2 {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
-    list-style-type: none;
+    text-transform: uppercase;
+}
+
+.hero-learn-more a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* footer */
+
+footer {
+    height: 150px; 
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 180%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }
