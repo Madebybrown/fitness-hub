@@ -226,8 +226,9 @@ div .main-article {
     grid-column-end: 3;
 }
 
-.main-article-title > p{
+.main-article-title > a > p{
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .main-article-title > a {
@@ -254,7 +255,7 @@ div .sub-article-1 {
     grid-row-end: 3;
 }
 
-.sub-article-1-title > p{
+.sub-article-1-title > a > p{
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -291,8 +292,9 @@ div .sub-article-2 {
     grid-row-end: 3;
 }
 
-.sub-article-2-title > p{
+.sub-article-2-title > a > p{
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .sub-article-2-title > a {
