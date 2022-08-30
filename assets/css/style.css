@@ -228,6 +228,11 @@ div .sub-article-1 {
     grid-row-end: 3;
 }
 
+.sub-article-1 .sub-article-vid {
+    width: 100%;
+    height: 48%;
+}
+
 div .sub-article-2 {
     grid-column-start: 1;
     grid-column-end: 2;
