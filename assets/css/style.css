@@ -227,7 +227,6 @@ div .main-article {
 }
 
 .main-article-title > a > p{
-    margin-top: 10px;
     margin-bottom: 10px;
 }
 
@@ -256,7 +255,6 @@ div .sub-article-1 {
 }
 
 .sub-article-1-title > a > p{
-    margin-top: 10px;
     margin-bottom: 10px;
 }
 
@@ -293,7 +291,6 @@ div .sub-article-2 {
 }
 
 .sub-article-2-title > a > p{
-    margin-top: 10px;
     margin-bottom: 10px;
 }
 
