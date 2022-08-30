@@ -212,34 +212,48 @@ footer {
 
 .container-articles div {
     padding: 10px;
-    border: 1px solid #000000;
+    border: 1px solid #000000; /* Displays border lines in case of the need to edit container-articles box sizes */
     text-align: left;
 }
 
-div .article-1 {
+div .main-article {
     grid-column-start: 1;
     grid-column-end: 3;
 }
 
-div .article-2 {
+div .sub-article-1 {
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 3;
 }
 
-div .article-3 {
+div .sub-article-2 {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 3;
 }
 
-div .article-4 {
+div .sub-article-3 {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3;
+}
+
+.container-articles .main-article-title {
+    width: 50%;
+    float: left;
+    border: 1px solid #000000;
+}
+
+.container-articles .main-article-pic {
+    width: 50%;
+    height: 100%;
+    float: right;
+    padding-left: 10px;
+    border-radius: 5px;
 }
 
 /* Gallery pictures */
@@ -281,6 +295,8 @@ div .article-4 {
     padding-bottom: 15px;
     border-radius: 5px;
 }
+
+/* Media queries */
 
 @media screen and (max-width: 769px) {
     .container .image-box {
