@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: 'Anek Telugu', 'Source Serif Pro', 'serif', 'sans-serif';
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 300;
     color: #1f1e1e;
     /* margin: 0; */
@@ -16,10 +16,16 @@ body {
 /* Headings and website logo */
 
 h1, h2 {
-    font-family: 'Anek Telugu', 'Source Serif Pro', 'serif', 'sans-serif';
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4.2px;
     color: #252525;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: lighter;
 }
 
 #logo {
@@ -195,7 +201,7 @@ footer {
     width: 100vw;
     height: 100vh;
 
-    font-family: 'Anek Telugu', 'Source Serif Pro';
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
     font-size: 20px;
 
