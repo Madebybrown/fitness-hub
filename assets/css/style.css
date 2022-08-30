@@ -10,6 +10,7 @@ body {
     font-family: 'Anek Telugu', Source Serif Pro, serif, sans-serif;
     font-weight: 300;
     color: #1f1e1e;
+    /* margin: 0; */
 }
 
 /* Headings and website logo */
@@ -92,7 +93,7 @@ h1, h2 {
 /* Hero background image + ethos */
 
 #hero-outer {
-    height: 730px;
+    height: 700px;
     width: 100%;
     overflow: hidden;
 
@@ -169,22 +170,76 @@ h1, h2 {
 /* footer */
 
 footer {
-    height: 100px; 
+    height: 100px;
 }
 
 .social-networks {
     text-align: center;
+    margin: 1%;
+    padding: 3% 5%;
 }
 
 .social-networks > li {
     display: inline;
+    margin: 1%;
+    padding: 3% 5%;
 }
 
 .social-networks i {
     font-size: 180%;
-    margin: 1%;
-    padding: 5%;
     color: #3a3a3a;
+}
+
+/* Articles */
+
+.container-articles {
+    width: 100vw;
+    height: 100vh;
+
+    font-family: 'Anek Telugu', Source Serif Pro;
+    font-weight: bold;
+    font-size: 20px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    grid-template-rows: repeat(2, 1fr);
+
+    gap: 10px;
+
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.container-articles div {
+    padding: 10px;
+    border: 1px solid #000000;
+    text-align: left;
+}
+
+div .article-1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+div .article-2 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+div .article-3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+div .article-4 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
 }
 
 /* Gallery pictures */
