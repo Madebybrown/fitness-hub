@@ -144,7 +144,7 @@ h1, h2 {
     color: #fff;
     text-transform: uppercase;
     background: #fff;
-    padding: 10px 25px 6px 25px;
+    padding: 10px 0px 6px 0px;
     border-radius: 5px;
 }
 
@@ -155,9 +155,10 @@ h1, h2 {
 .hero-learn-more a {
     text-decoration: none;
     color: #1f1e1e;
-    font-size: 1.2em;
+    /* font-size: 1.2em; */
     font-weight: bolder;
     letter-spacing: 2px;
+    padding: 10px 25px 6px 25px;
 }
 
 .hero-learn-more a:hover {
@@ -165,13 +166,10 @@ h1, h2 {
     color: #fff;
 }
 
-/* Featured articles */
-
-
 /* footer */
 
 footer {
-    height: 150px; 
+    height: 100px; 
 }
 
 .social-networks {
