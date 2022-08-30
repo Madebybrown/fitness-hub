@@ -230,6 +230,23 @@ div .main-article {
     margin-top: 10px;
 }
 
+.main-article-title > a {
+    text-decoration: none;
+    color: #1f1e1e;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    padding: 10px 25px 6px 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 1em;
+}
+
+.main-article-title > a:hover {
+    text-decoration: none;
+    color: blue;
+}
+
 div .sub-article-1 {
     grid-column-start: 3;
     grid-column-end: 4;
@@ -239,6 +256,24 @@ div .sub-article-1 {
 
 .sub-article-1-title > p{
     margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sub-article-1-title > a {
+    text-decoration: none;
+    color: #1f1e1e;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    padding: 10px 25px 6px 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 1em;
+}
+
+.sub-article-1-title > a:hover {
+    text-decoration: none;
+    color: blue;
 }
 
 .sub-article-1-pic {
@@ -258,6 +293,23 @@ div .sub-article-2 {
 
 .sub-article-2-title > p{
     margin-top: 10px;
+}
+
+.sub-article-2-title > a {
+    text-decoration: none;
+    color: #1f1e1e;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    padding: 10px 25px 6px 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 1em;
+}
+
+.sub-article-2-title > a:hover {
+    text-decoration: none;
+    color: blue;
 }
 
 .sub-article-2 .sub-article-vid {
