@@ -262,10 +262,10 @@ div .sub-article-2 {
 
 .container-articles .main-article-pic {
     width: 50%;
-    height: 100%;
+    height: 90%;
     float: right;
     padding-left: 10px;
-    border-radius: 5px;
+    /* border-radius: 5px; */
 }
 
 .read-more {
