@@ -212,7 +212,7 @@ footer {
 
 .container-articles div {
     padding: 10px;
-    border: 1px solid #000000; /* Displays border lines in case of the need to edit container-articles box sizes */
+    /* border: 1px solid #000000; */ /* Displays border lines in case of the need to edit container-articles box sizes */
     text-align: left;
 }
 
@@ -245,7 +245,7 @@ div .sub-article-3 {
 .container-articles .main-article-title {
     width: 50%;
     float: left;
-    border: 1px solid #000000;
+    /* border: 1px solid #000000; */
 }
 
 .container-articles .main-article-pic {
@@ -254,6 +254,26 @@ div .sub-article-3 {
     float: right;
     padding-left: 10px;
     border-radius: 5px;
+}
+
+.read-more {
+    float: right;
+    position: relative;
+}
+
+.read-more a {
+    text-decoration: none;
+    color: #1f1e1e;
+    /* font-size: 1.2em; */
+    font-weight: bolder;
+    letter-spacing: 2px;
+    padding: 10px 25px 6px 25px;
+    float left: ;
+}
+
+.read-more a:hover {
+    text-decoration: none;
+    color: blue;
 }
 
 /* Gallery pictures */
