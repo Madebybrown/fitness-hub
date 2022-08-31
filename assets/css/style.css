@@ -10,7 +10,6 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 300;
     color: #1f1e1e;
-    /* margin: 0; */
 }
 
 /* Headings and website logo */
@@ -393,7 +392,32 @@ div .sub-article-2 {
 
 /* Contact Form */
 
+.contact-container {
+    width: 100vw;
+    height: 100vh;
+    
+    display: grid;
+    
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
 
+    border: 1px solid #000000;
+    
+    gap: 10px;
+}
+
+.contact-heading {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    position: relative;
+    text-align: center;
+}
+
+.contact-heading > h2 {
+    margin: 30px;
+}
 
 /* Media queries */
 
