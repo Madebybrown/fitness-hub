@@ -399,7 +399,7 @@ div .sub-article-2 {
     display: grid;
     
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: repeat(6, 1fr);
 
     border: 1px solid #000000;
     
@@ -410,13 +410,22 @@ div .sub-article-2 {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-end: 2;
     position: relative;
     text-align: center;
 }
 
 .contact-heading > h2 {
     margin: 30px;
+}
+
+.contact-form {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    position: relative;
+    text-align: center;
 }
 
 /* Media queries */
